@@ -1,0 +1,13 @@
+<h3>Submit a New Resturant on our Amazing site!</h3>
+
+<div class="row">
+  <div class="col-3">
+    <%= simple_form_for(@restaurant) do |f| %>
+      <%= f.input :name %>
+      <%= f.input :address %>
+      <%= f.input :category %>
+      <%= f.submit "Submit Resturant" %>
+    <% end %>
+  </div>
+</div>
+
